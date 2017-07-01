@@ -23,7 +23,22 @@ A JavaScript Library to convert text in various amusing ways, using unicode feat
 - [ ] Explain details and history of why and how they work (ref. [unicode.org](http://unicode.org/faq/char_combmark.html))
 - [ ] Lose weight
 
+## Updates
+
+
+```
+ - Extracted, cleaned up and NPM Packaged creepify
+ - Added simple browserify build script for main repo
+ - Using [lerna](https://lernajs.io/) to continuously tear ludicode apart, limb by limby.
+````
+
 ## Usage
+
+If you want all functionality, use `./dist/lunicode.js` as a non-npm static dependency for the time being.
+If you only want creepify, use the ludicode-creepify package.
+
+Using browserify, if you use the former option a global variable called `lunicode` will be injected, behaving
+the same as described below. If you have AMD or commonjs available, you can use them respectively.
 
 This is the current an old way
 
@@ -109,7 +124,7 @@ Tiny Capitals.
 
 ## Original
 
-This list is from the original Repo. Comments by me in [].
+This list is from the original Repo. Comments by A.W. in [].
 <ul>
 	<li><a href="http://www.fileformat.info/">FileFormat.info</a> - The best Unicode reference <span style="color:green">- [✔️ Agreed - Last checked: 01-07-2017]</span></li>
 	<li><a href="http://en.wikipedia.org/wiki/Transformation_of_text">Wikipedia: Transformation of Text</a> - Table for flipped characters and others infos - [✔️ <span style="color:green">Seems to be partly outdated, but still usable - Last checked: 01-07-2017]</span></li>

@@ -1,0 +1,25 @@
+{
+  "name": "lunicode-creepify",
+  "version": "1.0.1",
+  "description": "Adds unicode diacritical marks to text, so it bleeds over.",
+  "main": "lunicode-creepify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaigand/Lunicode.js.git"
+  },
+  "keywords": [
+    "unicode",
+    "creepify",
+    "zalgo",
+    "typography"
+  ],
+  "author": "{\"name\": \"Andreas Waigand\", \"email\": \"mail@andreaswaigand.com\", \"url\":\"https://andreaswaigand.com\"}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awaigand/Lunicode.js/issues"
+  },
+  "homepage": "https://github.com/awaigand/Lunicode.js#readme"
+}

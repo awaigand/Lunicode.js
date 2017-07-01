@@ -1,0 +1,35 @@
+{
+  "name": "lunicode",
+  "description": "[![forthebadge](http://forthebadge.com/images/badges/gluten-free.svg)](http://forthebadge.com)\r [![forthebadge](http://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com)",
+  "version": "1.0.0",
+  "main": "./dist/lunicode.js",
+  "scripts": {
+    "build": "browserify lunicode.js --standalone lunicode > ./dist/lunicode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaigand/Lunicode.js.git"
+  },
+  "keywords": [
+    "unicode",
+    "creepify",
+    "typography"
+  ],
+  "author": {
+    "name": "Andreas Waigand",
+    "email": "mail@andreaswaigand.com",
+    "url": "https://andreaswaigand.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lunicode-creepify": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "lerna": "^2.0.0-rc.5"
+  },
+  "bugs": {
+    "url": "https://github.com/awaigand/Lunicode.js/issues"
+  },
+  "homepage": "https://github.com/awaigand/Lunicode.js#readme"
+}
