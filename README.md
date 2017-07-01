@@ -25,12 +25,9 @@ A JavaScript Library to convert text in various amusing ways, using unicode feat
 
 ## Updates
 
-
-```
  - Extracted, cleaned up and NPM Packaged creepify 
  - Added simple browserify build script for main repo
- - Using [lerna](https://lernajs.io/) to continuously tear ludicode apart, limb by limby.
-````
+ - Using [lerna](https://lernajs.io/) to continuously tear ludicode apart, limb by limb.
 
 ## Usage
 
@@ -40,16 +37,14 @@ If you only want creepify, use the ludicode-creepify package.
 Using browserify, if you use the former option a global variable called `lunicode` will be injected, behaving
 the same as described below. If you have AMD or commonjs available, you can use them respectively.
 
-This is the current an old way
-
 ```
-    // Get the Lunicode object, initializing the effects
-    var luni = new Lunicode();
-    
+	//Assuming window.lunicode is set via the file in dist
+	var luni = new lunicode(); //yes, I know. Should be Lunicode. I will remove the need for a constructor next release anyway. (no 	promises!)
+
 	// Encode text. Use one of the effects shown below. Here it's "flip"
-    var encodedText = luni.tools.flip.encode("Hello World");  // plɹoM ollǝH
-    
-    // Decode text back to plain ASCII (or reverse encoding)
+	var encodedText = luni.tools.flip.encode("Hello World");  // plɹoM ollǝH
+   
+   // Decode text back to plain ASCII (or reverse encoding)
     var plainText = luni.tools.mirror.decode("ƚxɘT ɿoɿɿiM");  // Mirror Text
     
     // Creepify has a few options. Set them before encoding:
@@ -58,10 +53,11 @@ This is the current an old way
     luni.tools.creepify.options.bottom = true;	// add diacritics on the bottom. Default: true
     luni.tools.creepify.options.maxHeight = 15; // How many diacritic marks shall we put on top/bottom? Default: 15
     luni.tools.creepify.options.randomization = 100; // 0-100%. maxHeight 100 and randomization 20%: the height goes from 80 to 100. randomization 70%: height goes from 30 to 100. Default: 100
-    
+
     // To convert Unicode text to HTML, use luni.getHTML(text);
     // Also converts \n to <br>\n and multiple spaces to &nbsp; &nbsp; &nbsp; ...
     var html = luni.getHTML("ǝpoɔıu∩̤"); // &#x1dd;&#x70;&#x6f;&#x254;&#x131;&#x75;&#x2229;&#x324;
+
 ```
 
 # Modules
