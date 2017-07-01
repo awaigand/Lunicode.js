@@ -62,6 +62,7 @@ the same as described below. If you have AMD or commonjs available, you can use 
 
 # Modules
 
+:white_check_mark: means they have their own npm package.
 
 ## flip
 
