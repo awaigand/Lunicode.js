@@ -27,7 +27,7 @@ A JavaScript Library to convert text in various amusing ways, using unicode feat
 
 
 ```
- - Extracted, cleaned up and NPM Packaged creepify
+ - Extracted, cleaned up and NPM Packaged creepify 
  - Added simple browserify build script for main repo
  - Using [lerna](https://lernajs.io/) to continuously tear ludicode apart, limb by limby.
 ````
@@ -79,7 +79,8 @@ Mirrors text horizontally. äöü ß èàù. Käseküchlein.
 
 .ᴎiɘ|ʜɔüʞɘꙅɒ̈⋊ .úɒ́ɘ́ ᙠ üöɒ̈ .ʏ||ɒƚᴎoƹiɿoʜ ƚxɘƚ ꙅɿoɿɿiM
 
-## creepify
+## creepify :white_check_mark:
+[![NPM](https://nodei.co/npm/lunicode-creepify.png?compact=true)](https://npmjs.org/package/lunicode-creepify)
 
 Adds  
 	diacritics
@@ -88,6 +89,7 @@ Adds
 Ą̵̛͎̗͎̯͕̺̭͍̩͐̄̄͗̿͛̔̀́̋̄͜d̷̨͉͇̞̲̥͈̝̺̘̪̥̟͚̘̫̑̋̎͜͜ḑ̵̡̛̤̱̣̼̞̥̻͕͗̔̀̐́̆̐̓͌̊͛̐̉̚͝s̴̯̤̓̐͒̓̉͆̿̔̚͝
 	̶̭̼͂̃d̴̡̰̯̲̣̘͉͉̯̣̥͋̈́̊̏̓̀͒̚i̷̮̭͋̈́̋͋̉͊̄̓͂̕a̶̳̣̲̓̊͋c̵̡̛̗͕̖̻͇̪͆̌͒͊͛͌̽̐̇̇̀͊̂̈͒̚͜͠ṙ̷̡̹̱̜̖̦̭ĩ̵͍̪̘͚̗̰͓̙͛͆̽̾͒̏̀͗̊̊́̍̉͒̊ţ̶̙͙̙͉̱́̀̈́̿͛͊̎̓̉̕̕͜͝i̵̛̞̭̭̮̱̬̯̙̖̺̼͑͛ͅć̶̢̡̫̻̪̩̤̱̠̰̹̙͒́̀͐͐̚̚͘͝͝ṩ̸̢̧̠͖̩͚̯̳͓̻̪̻̞
 
+[README](packages/lunicode-creepify/README.md)
 ## bubbles
 
 Bubbles around normal characters. Uses combining characters for everything else.
