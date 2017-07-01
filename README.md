@@ -109,18 +109,17 @@ Tiny Capitals.
 
 ## Original
 
-This list is from the original Repo. Comments by me are green.
-
+This list is from the original Repo. Comments by me in [].
 <ul>
-	<li><a href="http://www.fileformat.info/">FileFormat.info</a> - The best Unicode reference <span style="color:green">- ✔️ Agreed [Last checked: 01-07-2017]</span></li>
-	<li><a href="http://en.wikipedia.org/wiki/Transformation_of_text">Wikipedia: Transformation of Text</a> - Table for flipped characters and others infos - <span style="color:green">Seems to be partly outdated, but still usable. [Last checked: 01-07-2017]</span></li>
-	<li><a href="http://www.reddit.com/r/unicode">reddit.com/r/unicode</a> - The webs biggest unicode-for-fun community (needs more members) <span style="color:green">- ✔️ Agreed [Last checked: 01-07-2017]</span></li>
-	<li><a href="http://www.revfad.com/flip.html">David Fadens Flip</a> - Initial inspiration and characters <span style="color:green">- Simple, but still online! [Last checked: 01-07-2017]</span></li>
-	<li><a href="http://upsidedown.info/">Thomas Schilds upsidedown.info</a> - Inspiration and comparison <span style="color:green">- ✔️[Last checked: 01-07-2017]</span> </li>
-	<li><a href="http://www.macchiato.com/unicode/mirrored-ascii">Macchiato - Mirrored ASCII</a> - Initial codepoints for mirrored text ❗ <span style="color:green">Images Down [Last checked: 01-07-2017]</span> </li>
-	<li><a href="http://www.alanwood.net/unicode/enclosed_alphanumerics.html">Alan Wood’s Unicode Resources</a> - Codepoints for Bubble Text  <span style="color:green">- ✔️[Last checked: 01-07-2017]</span> </li>
-	<li><a href="http://en.wikipedia.org/wiki/Combining_character">Wikipedia: Combining Character</a> - For Creepify, Upsidedown Umlauts, Squares, ...  <span style="color:green">- ✔️[Last checked: 01-07-2017]</span></li>
-	<li><a href="http://blogs.msdn.com/b/michkap/archive/2006/02/17/533929.aspx">Michael Kaplan's "What do you get when you combine a base character with a buttload of diacritics?"</a> -  Idea for creepify  ❌<span style="color:green">Down :( [Last checked: 01-07-2017]</span> </li>
-	<li><a href="http://unicodeemoticons.com/">Unicode emoticons <span style="color:green"> Outdated </span></a>, <a href="http://www.planetminecraft.com/blog/collection-of-unicode-faces/">Collection of unicode faces</a> <span style="color:green"> Outdated </span> and <a href="https://gist.github.com/157796">Unicode smileys</a> <span style="color:green"> Maybe Outdated? Has useful information anyway </span </li>					
-	<li><a href="http://funicode.com">funicode.com</a> - Idea and lower case characters for Bent <span style="color:green"> ✔️ </span </li>
+	<li><a href="http://www.fileformat.info/">FileFormat.info</a> - The best Unicode reference <span style="color:green">- [✔️ Agreed - Last checked: 01-07-2017]</span></li>
+	<li><a href="http://en.wikipedia.org/wiki/Transformation_of_text">Wikipedia: Transformation of Text</a> - Table for flipped characters and others infos - [✔️ <span style="color:green">Seems to be partly outdated, but still usable - Last checked: 01-07-2017]</span></li>
+	<li><a href="http://www.reddit.com/r/unicode">reddit.com/r/unicode</a> - The webs biggest unicode-for-fun community (needs more members) <span style="color:green">- [✔️ Agreed Last checked: 01-07-2017]</span></li>
+	<li><a href="http://www.revfad.com/flip.html">David Fadens Flip</a> - Initial inspiration and characters <span style="color:green">- [✔️ Simple, but still online! Last checked: 01-07-2017]</span></li>
+	<li><a href="http://upsidedown.info/">Thomas Schilds upsidedown.info</a> - Inspiration and comparison <span style="color:green">- [✔️ - Last checked: 01-07-2017]</span> </li>
+	<li><a href="http://www.macchiato.com/unicode/mirrored-ascii">Macchiato - Mirrored ASCII</a> - Initial codepoints for mirrored text - [❗ Images Down - Last checked: 01-07-2017] </li>
+	<li><a href="http://www.alanwood.net/unicode/enclosed_alphanumerics.html">Alan Wood’s Unicode Resources</a> - Codepoints for Bubble Text  <span style="color:green">- [✔️ - Last checked: 01-07-2017]</span> </li>
+	<li><a href="http://en.wikipedia.org/wiki/Combining_character">Wikipedia: Combining Character</a> - For Creepify, Upsidedown Umlauts, Squares, ... - [✔️ Last checked: 01-07-2017]</li>
+	<li><a href="http://blogs.msdn.com/b/michkap/archive/2006/02/17/533929.aspx">Michael Kaplan's "What do you get when you combine a base character with a buttload of diacritics?"</a> -  Idea for creepify  [ ❌ Down :( - Last checked: 01-07-2017]</li>
+	<li><a href="http://unicodeemoticons.com/">Unicode emoticons</a> - [✔️ Outdated Last checked: 01-07-2017], <a href="http://www.planetminecraft.com/blog/collection-of-unicode-faces/">Collection of unicode faces</a> - [✔️ <span style="color:green">  Outdated - Last checked: 01-07-2017]</span> and <a href="https://gist.github.com/157796">Unicode smileys</a> - [✔️ Maybe Outdated? Has useful information anyway - Last checked: 01-07-2017]</li>					
+	<li><a href="http://funicode.com">funicode.com</a> - Idea and lower case characters for Bent - [✔️ - Last checked: 01-07-2017] </span </li>
 </ul>
