@@ -15,4 +15,4 @@ Into "lnɟɓuıuɐǝɯ ǝɟıl ǝʞɐɯ uɐɔ ʇɐɥʇ ɥʇɹɐǝ uo ɓnɹp ou s
 
 
 ## Decode
-Just a Ptr to the Encode function. It was already here when I got here, so I'll keep it for now. 
+Just a Ptr to the Encode function. It was already here when I got here, so I'll keep it for now.

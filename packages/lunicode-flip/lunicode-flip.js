@@ -1,39 +1,41 @@
 //TODO: Check if no Diacritics were released since original release of repo
 //TODO: Add/Remove/Update Options
 
-const flip = {
-    encode: function (text) {
-        var ret = [],
-            ch;
+function coder(text) {
+    var ret = [],
+        ch;
 
-        for (var i = 0, len = text.length; i < len; i++) {
-            ch = text.charAt(i);
+    for (var i = 0, len = text.length; i < len; i++) {
+        ch = text.charAt(i);
 
-            // combining diacritical marks: combine with previous character for ä,ö,ü,...
-            if (i > 0 && (ch == '\u0324' ||
-                ch == '\u0317' ||
-                ch == '\u0316' ||
-                ch == '\u032e')) {
-                ch = this.map[text.charAt(i - 1) + ch];
-                ret.pop();
+        // combining diacritical marks: combine with previous character for ä,ö,ü,...
+        if (i > 0 && (ch == '\u0324' ||
+            ch == '\u0317' ||
+            ch == '\u0316' ||
+            ch == '\u032e')) {
+            ch = this.map[text.charAt(i - 1) + ch];
+            ret.pop();
 
-            } else {
-                ch = this.map[ch];
-                if (typeof(ch) == "undefined") {
-                    ch = text.charAt(i);
-                }
+        } else {
+            ch = this.map[ch];
+            if (typeof(ch) == "undefined") {
+                ch = text.charAt(i);
             }
-
-            ret.push(ch);
-
-
         }
 
-        return ret.reverse().join("");
-    },
+        ret.push(ch);
+
+
+    }
+
+    return ret.reverse().join("");
+}
+
+const flip = {
+    encode: coder.bind(this),
 
     // same as encode(), for now...
-    decode: this.encode,
+    decode: coder.bind(this),
 
     map: {
         "1": "⇂",
@@ -228,4 +230,8 @@ const flip = {
     }// TODO: flip more letters with stuff around them. See http://en.wikipedia.org/wiki/Combining_character
 
 }
+
+flip.encode = coder.bind(flip);
+flip.decode = coder.bind(flip);
+
 module.exports = flip;
