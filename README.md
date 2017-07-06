@@ -64,13 +64,13 @@ the same as described below. If you have AMD or commonjs available, you can use 
 
 :white_check_mark: means they have their own npm package.
 
-## flip
+## flip :white_check_mark:
 
 Flips/Rotates text, including numbers (12345) and some special characters: äöü éáú ÄÖÜ ß ô
 
 o̮ ᙠ ∩̤O̤∀̤ n̗ɐ̗ǝ̗ n̤o̤ɐ̤ :sɹǝʇɔɐɹɐɥɔ lɐıɔǝds ǝɯos puɐ (ގㄣƐᄅ⇂) sɹǝqɯnu ɓuıpnlɔuı 'ʇxǝʇ sǝʇɐʇoᴚ/sdılℲ
 
-## mirror
+## mirror :white_check_mark:
 
 Mirrors text horizontally. äöü ß èàù. Käseküchlein.
 
