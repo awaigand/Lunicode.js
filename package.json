@@ -22,7 +22,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "lunicode-creepify": "^1.0.0"
+    "lunicode-creepify": "^1.0.0",
+    "lunicode-flip": "^1.0.0"
   },
   "devDependencies": {
     "browserify": "^14.4.0",
