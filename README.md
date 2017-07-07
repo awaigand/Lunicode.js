@@ -14,8 +14,8 @@ A JavaScript Library to convert text in various amusing ways, using unicode feat
 
 - [X] Get out of bed
 - [X] Make this list
-- [ ] Modularize the code
-- [ ] NPM package it
+- [X] Modularize the code
+- [X] NPM package it
 
 ### Lofty
 
@@ -24,8 +24,8 @@ A JavaScript Library to convert text in various amusing ways, using unicode feat
 - [ ] Lose weight
 
 ## Updates
-
- - Extracted, cleaned up and NPM Packaged creepify, flip, mirror, bent, bubbles. 
+ - Finished lunicode.js modularization.
+ - Extracted, cleaned up and NPM Packaged creepify, flip, mirror, bent, bubbles, tiny, squares, roundsquares. 
  - Added simple browserify build script for main repo.
  - Using [lerna](https://lernajs.io/) to continuously tear ludicode apart, limb by limb.
 
