@@ -66,7 +66,7 @@ the same as described below. If you have AMD or commonjs available, you can use 
 
 ## flip :white_check_mark:
 
-[![NPM](https://nodei.co/npm/lunicode-mirror.png?compact=true)](https://npmjs.org/package/lunicode-flip)
+[![NPM](https://nodei.co/npm/lunicode-flip.png?compact=true)](https://npmjs.org/package/lunicode-flip)
 
 Flips/Rotates text, including numbers (12345) and some special characters: äöü éáú ÄÖÜ ß ô
 
