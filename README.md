@@ -97,19 +97,22 @@ Bubbles around normal characters. Uses combining characters for everything else.
 
 Ⓑⓤⓑⓑⓛⓔⓢ ⓐⓡⓞⓤⓝⓓ ⓝⓞⓡⓜⓐⓛ ⓒⓗⓐⓡⓐⓒⓣⓔⓡⓢ    .⃝ Ⓤⓢⓔⓢ ⓒⓞⓜⓑⓘⓝⓘⓝⓖ ⓒⓗⓐⓡⓐⓒⓣⓔⓡⓢ ⓕⓞⓡ ⓔⓥⓔⓡⓨⓣⓗⓘⓝⓖ ⓔⓛⓢⓔ    .⃝
 
-## squares
+## squares :white_check_mark:
+[![NPM](https://nodei.co/npm/lunicode-squares.png?compact=true)](https://npmjs.org/package/lunicode-squares)
 
 Squares, via combining characters.
 
 S⃞    q⃞    u⃞    a⃞    r⃞    e⃞    s⃞    ,⃞     v⃞    i⃞    a⃞     c⃞    o⃞    m⃞    b⃞    i⃞    n⃞    i⃞    n⃞    g⃞     c⃞    h⃞    a⃞    r⃞    a⃞    c⃞    t⃞    e⃞    r⃞    s⃞    .⃞
 
-## roundsquares
+## roundsquares :white_check_mark:
+
+[![NPM](https://nodei.co/npm/lunicode-roundsquares.png?compact=true)](https://npmjs.org/package/lunicode-roundsquares)
 
 Round squares, via combining characters.
 
 R⃣   o⃣   u⃣   n⃣   d⃣    s⃣   q⃣   u⃣   a⃣   r⃣   e⃣   s⃣   ,⃣    v⃣   i⃣   a⃣    c⃣   o⃣   m⃣   b⃣   i⃣   n⃣   i⃣   n⃣   g⃣    c⃣   h⃣   a⃣   r⃣   a⃣   c⃣   t⃣   e⃣   r⃣   s⃣   .⃣
 
-## bent
+## bent :white_check_mark:
 
 [![NPM](https://nodei.co/npm/lunicode-bent.png?compact=true)](https://npmjs.org/package/lunicode-bent)
 
@@ -117,7 +120,9 @@ Wonky alternatives to the usual characters.
 
 చօղҟվ ąӀէҽɾղąէìѵҽʂ էօ էհҽ մʂմąӀ çհąɾąçէҽɾʂ.
 
-## tiny
+## tiny :white_check_mark:
+
+[![NPM](https://nodei.co/npm/lunicode-tiny.png?compact=true)](https://npmjs.org/package/lunicode-tiny)
 
 Tiny Capitals.
 

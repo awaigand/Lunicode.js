@@ -26,7 +26,10 @@
     "lunicode-flip": "^1.0.0",
     "lunicode-mirror": "^1.0.0",
     "lunicode-bubbles": "^1.0.0",
-    "lunicode-bent":"^1.0.0"
+    "lunicode-bent": "^1.0.0",
+    "lunicode-squares": "^1.0.0",
+    "lunicode-tiny": "^1.0.0",
+    "lunicode-roundsquares": "^1.0.0"
   },
   "devDependencies": {
     "browserify": "^14.4.0",

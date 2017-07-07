@@ -1,8 +1,8 @@
 {
-  "name": "lunicode-bubbles",
-  "version": "1.0.1",
-  "description": "Uses mostly mathematical unicode symbols to 'bubble' chars.",
-  "main": "lunicode-bubbles.js",
+  "name": "lunicode-roundsquares",
+  "version": "1.0.2",
+  "description": "Uses mixed unicode symbols to roundsquares each char, if available. This is very much depending on the browser of the viewer.",
+  "main": "lunicode-roundsquares.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "unicode",
-    "squares",
+    "roundsquares",
     "typography"
   ],
   "author": "{\"name\": \"Andreas Waigand\", \"email\": \"mail@andreaswaigand.com\", \"url\":\"https://andreaswaigand.com\"}",

@@ -1,5 +1,5 @@
 //TODO: Fix 'guesstimate' in encode function. Fix handling of non-available chars. Expend map.
-const bubbles =  {
+const squares =  {
     encode: function(text) {
         var ret = "",
             ch,
@@ -174,4 +174,4 @@ const bubbles =  {
     }
 };
 
-module.exports = bubbles;
+module.exports = squares;

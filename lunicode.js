@@ -7,6 +7,10 @@ const flip = require('lunicode-flip');
 const mirror = require('lunicode-mirror');
 const bubbles = require('lunicode-bubbles');
 const bent = require('lunicode-bent');
+const squares = require('lunicode-squares');
+const tiny = require('lunicode-tiny');
+const roundsquares = require("lunicode-roundsquares");
+
 function Lunicode() {
   
   this.tools = {
@@ -25,85 +29,11 @@ function Lunicode() {
     
     
     // Puts a Square Combining Character after a letter, thus ensquaring it, squarily.
-    squares: {
-      init: function() {},
-      
-      encode: function(text) {
-        var ret = "",
-            ch,
-            first = true;
-            
-        for (i in text) {
-          if (text[i].charCodeAt(0) >= 33) {
-            ch = text[i] + String.fromCharCode(8414);
-            if (!first) {
-              ch = String.fromCharCode(8239) + String.fromCharCode(160) + String.fromCharCode(160) + String.fromCharCode(8239) + ch;
-            }
-          } else {
-            ch = text[i];
-          }
-          
-          ret += ch;
-          first = (ch == '\n');
-        }
-        return ret;
-      },
-      
-      decode: function(text) {
-        var ret = "",
-            ch;
-            
-        for (i in text) {
-          ch = text[i].charCodeAt(0);
-          if (ch != 160 && ch != 8239 && ch != 8414) {
-            ret += text[i];
-          }
-        }
-        
-        return ret;
-      }
-    },
+    squares: squares,
     
     
     // Same as squares, just round.
-    roundsquares: {
-      init: function() {},
-      
-      encode: function(text) {
-        var ret = "",
-            ch,
-            first = true;
-            
-        for (i in text) {
-          if (text[i].charCodeAt(0) >= 33) {
-            ch = text[i] + String.fromCharCode(8419);
-            if (!first) {
-              ch = String.fromCharCode(160) + String.fromCharCode(160) + String.fromCharCode(160) + ch;
-            }
-          } else {
-            ch = text[i];
-          }
-          
-          ret += ch;
-          first = (ch == '\n');
-        }
-        return ret;
-      },
-      
-      decode: function(text) {
-        var ret = "",
-            ch;
-            
-        for (i in text) {
-          ch = text[i].charCodeAt(0);
-          if (ch != 160 && ch != 8239 && ch != 8419) {
-            ret += text[i];
-          }
-        }
-        
-        return ret;
-      }
-    },
+    roundsquares: roundsquares,
     
     
     // Weird looking alternatives to most characters
@@ -111,76 +41,7 @@ function Lunicode() {
     
     
     // Tiny Capitals
-    tiny: {
-      init: function() {
-
-        // invert the map
-        for (i in this.map) {
-          this.map[this.map[i]] = i;
-        }
-
-      },
-
-      encode: function(text) {
-        var ret = '',
-            ch;
-        text = text.toUpperCase();
-        for (var i = 0, len = text.length; i < len; i++) {
-          ch = this.map[text.charAt(i)];
-          if (typeof(ch) == "undefined") {
-            ch = text.charAt(i);
-          }
-          ret +=  ch;
-
-        }    
-
-        return ret;
-      },
-
-      decode: function(text) {
-        var ret = '',
-            ch;
-
-        for (var i = 0, len = text.length; i < len; i++) {
-          ch = this.map[text.charAt(i)];
-          if (typeof(ch) == "undefined") {
-              ch = text.charAt(i);
-          }
-          ret += ch;          
-        }
-        return ret;
-      },
-
-      // TODO: Find small lower case letters
-      map: {        
-          'A' : 'ᴀ',
-          'B' : 'ʙ',
-          'C' : 'ᴄ',
-          'D' : 'ᴅ',
-          'E' : 'ᴇ',
-          'F' : 'ꜰ',
-          'G' : 'ɢ',
-          'H' : 'ʜ',
-          'I' : 'ɪ',
-          'J' : 'ᴊ',
-          'K' : 'ᴋ',
-          'L' : 'ʟ',
-          'M' : 'ᴍ',
-          'N' : 'ɴ',
-          'O' : 'ᴏ',
-          'P' : 'ᴘ',
-          'Q' : 'Q',
-          'R' : 'ʀ',
-          'S' : 'ꜱ',
-          'T' : 'ᴛ',
-          'U' : 'ᴜ',
-          'V' : 'ᴠ',
-          'W' : 'ᴡ',
-          'X' : 'x',
-          'Y' : 'ʏ',
-          'Z' : 'ᴢ'
-      }
-    }
+    tiny: tiny,
 
    
     
