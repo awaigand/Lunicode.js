@@ -25,7 +25,7 @@ A JavaScript Library to convert text in various amusing ways, using unicode feat
 
 ## Updates
 
- - Extracted, cleaned up and NPM Packaged creepify, flip, mirror. 
+ - Extracted, cleaned up and NPM Packaged creepify, flip, mirror, bent, bubbles. 
  - Added simple browserify build script for main repo.
  - Using [lerna](https://lernajs.io/) to continuously tear ludicode apart, limb by limb.
 
@@ -110,6 +110,8 @@ Round squares, via combining characters.
 R⃣   o⃣   u⃣   n⃣   d⃣    s⃣   q⃣   u⃣   a⃣   r⃣   e⃣   s⃣   ,⃣    v⃣   i⃣   a⃣    c⃣   o⃣   m⃣   b⃣   i⃣   n⃣   i⃣   n⃣   g⃣    c⃣   h⃣   a⃣   r⃣   a⃣   c⃣   t⃣   e⃣   r⃣   s⃣   .⃣
 
 ## bent
+
+[![NPM](https://nodei.co/npm/lunicode-bent.png?compact=true)](https://npmjs.org/package/lunicode-bent)
 
 Wonky alternatives to the usual characters.
 
