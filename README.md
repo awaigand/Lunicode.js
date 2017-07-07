@@ -25,8 +25,8 @@ A JavaScript Library to convert text in various amusing ways, using unicode feat
 
 ## Updates
 
- - Extracted, cleaned up and NPM Packaged creepify 
- - Added simple browserify build script for main repo
+ - Extracted, cleaned up and NPM Packaged creepify, flip, mirror. 
+ - Added simple browserify build script for main repo.
  - Using [lerna](https://lernajs.io/) to continuously tear ludicode apart, limb by limb.
 
 ## Usage
