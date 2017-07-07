@@ -25,8 +25,8 @@ A JavaScript Library to convert text in various amusing ways, using unicode feat
 
 ## Updates
 
- - Extracted, cleaned up and NPM Packaged creepify 
- - Added simple browserify build script for main repo
+ - Extracted, cleaned up and NPM Packaged creepify, flip, mirror. 
+ - Added simple browserify build script for main repo.
  - Using [lerna](https://lernajs.io/) to continuously tear ludicode apart, limb by limb.
 
 ## Usage
@@ -66,11 +66,15 @@ the same as described below. If you have AMD or commonjs available, you can use 
 
 ## flip :white_check_mark:
 
+[![NPM](https://nodei.co/npm/lunicode-flip.png?compact=true)](https://npmjs.org/package/lunicode-flip)
+
 Flips/Rotates text, including numbers (12345) and some special characters: äöü éáú ÄÖÜ ß ô
 
 o̮ ᙠ ∩̤O̤∀̤ n̗ɐ̗ǝ̗ n̤o̤ɐ̤ :sɹǝʇɔɐɹɐɥɔ lɐıɔǝds ǝɯos puɐ (ގㄣƐᄅ⇂) sɹǝqɯnu ɓuıpnlɔuı 'ʇxǝʇ sǝʇɐʇoᴚ/sdılℲ
 
 ## mirror :white_check_mark:
+
+[![NPM](https://nodei.co/npm/lunicode-mirror.png?compact=true)](https://npmjs.org/package/lunicode-mirror)
 
 Mirrors text horizontally. äöü ß èàù. Käseküchlein.
 
