@@ -91,8 +91,8 @@ Adds
 	̶̭̼͂̃d̴̡̰̯̲̣̘͉͉̯̣̥͋̈́̊̏̓̀͒̚i̷̮̭͋̈́̋͋̉͊̄̓͂̕a̶̳̣̲̓̊͋c̵̡̛̗͕̖̻͇̪͆̌͒͊͛͌̽̐̇̇̀͊̂̈͒̚͜͠ṙ̷̡̹̱̜̖̦̭ĩ̵͍̪̘͚̗̰͓̙͛͆̽̾͒̏̀͗̊̊́̍̉͒̊ţ̶̙͙̙͉̱́̀̈́̿͛͊̎̓̉̕̕͜͝i̵̛̞̭̭̮̱̬̯̙̖̺̼͑͛ͅć̶̢̡̫̻̪̩̤̱̠̰̹̙͒́̀͐͐̚̚͘͝͝ṩ̸̢̧̠͖̩͚̯̳͓̻̪̻̞
 
 [README](packages/lunicode-creepify/README.md)
-## bubbles
-
+## bubbles :white_check_mark:
+[![NPM](https://nodei.co/npm/lunicode-bubbles.png?compact=true)](https://npmjs.org/package/lunicode-bubbles)
 Bubbles around normal characters. Uses combining characters for everything else.
 
 Ⓑⓤⓑⓑⓛⓔⓢ ⓐⓡⓞⓤⓝⓓ ⓝⓞⓡⓜⓐⓛ ⓒⓗⓐⓡⓐⓒⓣⓔⓡⓢ    .⃝ Ⓤⓢⓔⓢ ⓒⓞⓜⓑⓘⓝⓘⓝⓖ ⓒⓗⓐⓡⓐⓒⓣⓔⓡⓢ ⓕⓞⓡ ⓔⓥⓔⓡⓨⓣⓗⓘⓝⓖ ⓔⓛⓢⓔ    .⃝
