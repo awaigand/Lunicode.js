@@ -91,7 +91,7 @@ Adds
 	̶̭̼͂̃d̴̡̰̯̲̣̘͉͉̯̣̥͋̈́̊̏̓̀͒̚i̷̮̭͋̈́̋͋̉͊̄̓͂̕a̶̳̣̲̓̊͋c̵̡̛̗͕̖̻͇̪͆̌͒͊͛͌̽̐̇̇̀͊̂̈͒̚͜͠ṙ̷̡̹̱̜̖̦̭ĩ̵͍̪̘͚̗̰͓̙͛͆̽̾͒̏̀͗̊̊́̍̉͒̊ţ̶̙͙̙͉̱́̀̈́̿͛͊̎̓̉̕̕͜͝i̵̛̞̭̭̮̱̬̯̙̖̺̼͑͛ͅć̶̢̡̫̻̪̩̤̱̠̰̹̙͒́̀͐͐̚̚͘͝͝ṩ̸̢̧̠͖̩͚̯̳͓̻̪̻̞
 
 [README](packages/lunicode-creepify/README.md)
-## bubbles
+## bubbles :white_check_mark:
 
 Bubbles around normal characters. Uses combining characters for everything else.
 
