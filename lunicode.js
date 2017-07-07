@@ -5,6 +5,7 @@
 const creepify = require('lunicode-creepify');
 const flip = require('lunicode-flip');
 const mirror = require('lunicode-mirror');
+const bubbles = require('lunicode-bubbles');
 
 function Lunicode() {
   
@@ -19,83 +20,7 @@ function Lunicode() {
     // Circles around Letters. Uses special circle characters for some letters and combining characters for the rest
     // Thanks to
     // - Alan Wood: http://www.alanwood.net/unicode/enclosed_alphanumerics.html
-    bubbles: {
-      init: function() {
-        
-        
-        
-        // Numbers
-        for (var i = 49; i <= 57; i++) {
-          this.map[String.fromCharCode(i)] = String.fromCharCode(i+9263);
-        }
-        this.map['0'] = '\u24ea';
-        
-        // Capital letters
-        for (var i = 65; i <= 90; i++) {
-          this.map[String.fromCharCode(i)] = String.fromCharCode(i+9333);
-        }
-        
-        // Lower letters
-        for (var i = 97; i <= 122; i++) {
-          this.map[String.fromCharCode(i)] = String.fromCharCode(i+9327);
-        }
-                
-        // invert the map
-        for (i in this.map) {
-          this.mapInverse[this.map[i]] = i;
-        }
-        
-      },
-      
-      encode: function(text) {
-        var ret = "",
-            ch,
-            first = true;
-            
-        for (i in text) {
-          ch = this.map[text[i]];
-
-          // No dedicated circled character available? Use a Combining Diacritical Mark surrounded
-          // with non-breaking spaces, so it doesn't overlap
-          if ((typeof(ch) == "undefined")) {
-            if (text[i].charCodeAt(0) >= 33) {
-              ch = text[i] + String.fromCharCode(8413);
-              if (!first) {
-                ch = String.fromCharCode(8239) + String.fromCharCode(160) + String.fromCharCode(160) + String.fromCharCode(8239) + ch;
-              }
-            } else {
-              ch = text[i];
-            }
-          }
-          ret += ch;
-          first = (ch == '\n');
-        }
-        return ret;
-      },
-      
-      decode: function(text) {
-        var ret = "",
-            ch,
-            newRet = '';
-            
-        for (i in text) {
-          ch = this.mapInverse[text[i]];
-          ret += ((typeof(ch) == "undefined") ? text[i] : ch);
-        }
-        
-        for (i in ret) {
-          ch = ret[i].charCodeAt(0);
-          if (ch != 160 && ch != 8239 && ch != 8413) {
-            newRet += ret[i];
-          }
-        }
-        
-        return newRet;
-      },
-      
-      map: {},
-      mapInverse: {}
-    },
+    bubbles: bubbles,
     
     
     

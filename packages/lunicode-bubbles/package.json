@@ -1,0 +1,24 @@
+{
+  "name": "lunicode-bubbles",
+  "version": "1.0.1",
+  "description": "Uses mostly mathematical unicode symbols to 'bubble' chars.",
+  "main": "lunicode-bubbles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaigand/Lunicode.js.git"
+  },
+  "keywords": [
+    "unicode",
+    "bubbles",
+    "typography"
+  ],
+  "author": "{\"name\": \"Andreas Waigand\", \"email\": \"mail@andreaswaigand.com\", \"url\":\"https://andreaswaigand.com\"}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awaigand/Lunicode.js/issues"
+  },
+  "homepage": "https://github.com/awaigand/Lunicode.js#readme"
+}
