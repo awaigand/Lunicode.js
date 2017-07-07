@@ -92,7 +92,7 @@ Adds
 
 [README](packages/lunicode-creepify/README.md)
 ## bubbles :white_check_mark:
-
+[![NPM](https://nodei.co/npm/lunicode-bubbles.png?compact=true)](https://npmjs.org/package/lunicode-bubbles)
 Bubbles around normal characters. Uses combining characters for everything else.
 
 Ⓑⓤⓑⓑⓛⓔⓢ ⓐⓡⓞⓤⓝⓓ ⓝⓞⓡⓜⓐⓛ ⓒⓗⓐⓡⓐⓒⓣⓔⓡⓢ    .⃝ Ⓤⓢⓔⓢ ⓒⓞⓜⓑⓘⓝⓘⓝⓖ ⓒⓗⓐⓡⓐⓒⓣⓔⓡⓢ ⓕⓞⓡ ⓔⓥⓔⓡⓨⓣⓗⓘⓝⓖ ⓔⓛⓢⓔ    .⃝
