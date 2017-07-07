@@ -1,7 +1,7 @@
 # Lunicode Flip
 
-[![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
-[![NPM](https://nodei.co/npm/lunicode-creepify.png?compact=true)](https://npmjs.org/package/lunicode-creepify)
+[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
+[![NPM](https://nodei.co/npm/lunicode-flip.png?compact=true)](https://npmjs.org/package/lunicode-flip)
 
 Provides a flip effect for certain characters in strings, so they seem they are "on their head".  This is mainly for testing or emergency purposes (when you dont want to resort to css transforms.
 
